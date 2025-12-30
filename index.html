@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profesyonel Hava Durumu</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="weather-app">
+      <header class="search-container">
+        <input
+          type="text"
+          id="city-input"
+          placeholder="Şehir adı girin..."
+          autocomplete="off"
+        />
+        <button id="search-button">Ara</button>
+      </header>
+
+      <main id="weather-data">
+        <p class="initial-message">
+          Hava durumunu öğrenmek için bir şehir arayın veya konum izni verin.
+        </p>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
