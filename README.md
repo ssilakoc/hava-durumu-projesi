@@ -2,13 +2,11 @@
 
 Selam! Bu proje, JavaScript öğrenme sürecimde API'larla çalışmayı ve asenkron yapıyı (Async/Await) tam olarak oturtmak için geliştirdiğim bir hava durumu uygulaması. 
 
-React gibi kütüphanelere geçmeden önce saf JavaScript (Vanilla JS) ile neler yapabileceğimi görmek istedim.
 
 ## 🚀 Canlı Demo
  https://ssilakoc.github.io/hava-durumu-projesi/
 
 ## 🔥 Bu Projede Neler Öğrendim?
-Bu projeyi yaparken sadece kod yazmadım, aynı zamanda şu teknik zorluklarla uğraştım:
 - **API Yönetimi:** OpenWeatherMap'ten gelen karmaşık JSON verisini parçalayıp ihtiyacım olanları (sıcaklık, nem, rüzgar) çekmeyi öğrendim.
 - **Dinamik UI:** Hava durumu "Rainy" (Yağmurlu) geldiğinde arka plan rengini CSS ile otomatik değiştiren bir mantık kurdum.
 - **Hata Yönetimi:** Kullanıcı olmayan bir şehir girdiğinde uygulamanın patlamaması için `try-catch` bloklarını kullandım.
